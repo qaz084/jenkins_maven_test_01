@@ -11,5 +11,6 @@ package org.example;
 public class RamaTest1 {
     
     String rama;
+    Integer edad;
     
 }
