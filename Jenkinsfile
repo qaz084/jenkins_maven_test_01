@@ -8,5 +8,12 @@ pipeline {
                 bat 'mvn --version'
             }
         }
+         post {
+        always {
+                timeout(time: 1, unit: 'MINUTES') {
+                    echo 'This will always run'
+                }
+          
+        }
     }
 }
